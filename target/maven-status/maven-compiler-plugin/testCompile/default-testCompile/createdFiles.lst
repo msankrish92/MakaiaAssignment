@@ -1,0 +1,5 @@
+lib\utils\HTMLReporter.class
+test\rest\TC001_GetWetherByCityName.class
+lib\utils\DataInputProvider.class
+lib\rest\PreAndTest.class
+lib\rest\RestAssuredBase.class
