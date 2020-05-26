@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7744" started-at="2020-05-26T12:23:57 IST" finished-at="2020-05-26T12:24:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7744" started-at="2020-05-26T12:23:57 IST" finished-at="2020-05-26T12:24:05 IST">
+      <class name="test.rest.TC001_GetWetherByCityName">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="beforeSuite" is-config="true" duration-ms="1374" started-at="2020-05-26T12:23:56 IST" finished-at="2020-05-26T12:23:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="setValues" is-config="true" duration-ms="0" started-at="2020-05-26T12:23:57 IST" finished-at="2020-05-26T12:23:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="beforeClass" is-config="true" duration-ms="16" started-at="2020-05-26T12:23:57 IST" finished-at="2020-05-26T12:23:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="getWeather" duration-ms="4844" started-at="2020-05-26T12:23:58 IST" data-provider="fetchData" finished-at="2020-05-26T12:24:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-26T12:23:58 IST" finished-at="2020-05-26T12:23:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="getWeather" duration-ms="609" started-at="2020-05-26T12:24:03 IST" data-provider="fetchData" finished-at="2020-05-26T12:24:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-26T12:24:03 IST" finished-at="2020-05-26T12:24:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="getWeather" duration-ms="556" started-at="2020-05-26T12:24:03 IST" data-provider="fetchData" finished-at="2020-05-26T12:24:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-26T12:24:03 IST" finished-at="2020-05-26T12:24:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="getWeather" duration-ms="531" started-at="2020-05-26T12:24:04 IST" data-provider="fetchData" finished-at="2020-05-26T12:24:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-26T12:24:04 IST" finished-at="2020-05-26T12:24:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="getWeather" duration-ms="391" started-at="2020-05-26T12:24:04 IST" data-provider="fetchData" finished-at="2020-05-26T12:24:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[China]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-26T12:24:04 IST" finished-at="2020-05-26T12:24:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.rest.TC001_GetWetherByCityName@4671e53b]" name="afterSuite" is-config="true" duration-ms="312" started-at="2020-05-26T12:24:05 IST" finished-at="2020-05-26T12:24:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.rest.TC001_GetWetherByCityName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
